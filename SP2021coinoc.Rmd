@@ -1,0 +1,180 @@
+---
+title: "SP2021coinoc"
+author: "James C. Kosmopoulos"
+date: "`r format(Sys.Date())`"
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Setup
+
+```{r Load packages, message=FALSE, warning=FALSE}
+# global options
+knitr::opts_chunk$set(echo = TRUE)
+
+# set working directory
+setwd("~/Documents/Research/Rprojects/SP2021coinoc")
+
+# load packages
+library("knitr") # produce the knitted doc
+library("gridExtra") # for arranging plots
+library("cowplot")
+```
+
+# Load data
+
+```{r}
+data.raw <- read.csv("./data_raw.csv", header=TRUE)
+data.raw$Inoc <- as.factor(data.raw$Inoc)
+
+data <- data.raw %>% filter(Plant != "L-B6") %>% droplevels(.)
+data <- data %>% filter(Plant != "L-C2") %>% droplevels(.)
+data <- data %>% filter(Plant!= "R-A1") %>% droplevels(.)
+
+data.long <- gather(data, key = "Trait", value = "Measurement", Tot_nod_mass:Nod_mass_per_root_mass)# use gather to stack the trait columns
+```
+
+
+# Sumamrize data
+
+```{r}
+library("tidyverse") # includes ggplot2, dplyr, readr, stringr
+
+data.sum <- data %>%
+  group_by(Inoc) %>%
+  summarize(count = n(),
+            # Tot_nod_mass
+            mean_Tot_nod_mass = mean(Tot_nod_mass, na.rm = TRUE), sd_Tot_nod_mass = sd(Tot_nod_mass, na.rm = TRUE),
+            SE_Tot_nod_mass = sd_Tot_nod_mass/sqrt(count),
+            # Avg_nod_mass
+            mean_Avg_nod_mass = mean(Avg_nod_mass, na.rm = TRUE), sd_Avg_nod_mass = sd(Avg_nod_mass, na.rm = TRUE),
+            SE_Avg_nod_mass = sd_Avg_nod_mass/sqrt(count),
+            # Root_mass
+            mean_Root_mass = mean(Root_mass, na.rm = TRUE), sd_Root_mass = sd(Root_mass, na.rm = TRUE),
+            SE_Root_mass = sd_Root_mass/sqrt(count),
+            # Shoot_mass
+            mean_Shoot_mass = mean(Shoot_mass, na.rm = TRUE), sd_Shoot_mass = sd(Shoot_mass, na.rm = TRUE),
+            SE_Shoot_mass = sd_Shoot_mass/sqrt(count),
+            # Shoot_mass_per_root_mass
+            mean_Shoot_mass_per_root_mass = mean(Shoot_mass_per_root_mass, na.rm = TRUE), sd_Shoot_mass_per_root_mass = sd(Shoot_mass_per_root_mass, na.rm = TRUE),
+            SE_Shoot_mass_per_root_mass = sd_Shoot_mass_per_root_mass/sqrt(count),
+            # Shoot_mass_per_nod_mass
+            mean_Shoot_mass_per_nod_mass = mean(Shoot_mass_per_nod_mass, na.rm = TRUE), sd_Shoot_mass_per_nod_mass = sd(Shoot_mass_per_nod_mass, na.rm = TRUE),
+            SE_Shoot_mass_per_nod_mass = sd_Shoot_mass_per_nod_mass/sqrt(count),
+            # Nod_mass_per_root_mass
+            mean_Nod_mass_per_root_mass = mean(Nod_mass_per_root_mass, na.rm = TRUE), sd_Nod_mass_per_root_mass = sd(Nod_mass_per_root_mass, na.rm = TRUE),
+            SE_Nod_mass_per_root_mass = sd_Nod_mass_per_root_mass/sqrt(count)
+            )
+
+data.long.sum <- data.long %>%
+  group_by(Inoc, Trait) %>%
+  summarize(count = n(),
+            mean_Trait = mean(Measurement, na.rm = TRUE), sd_Trait = sd(Measurement, na.rm = TRUE),
+            SE_Trait = sd_Trait/sqrt(count))           
+data.long.sum$Trait <- factor(data.long.sum$Trait, level = c("Tot_nod_mass", "Nod_num", "Avg_nod_mass", "Root_mass", "Shoot_mass", "Shoot_mass_per_root_mass", "Shoot_mass_per_nod_mass", "Nod_mass_per_root_mass"))
+```
+
+
+
+# Shapiro tests
+
+Test if the trait values are normally distributed. If p<0.05, then the data range is not normally distrubuted.
+
+## Tot_nod_mass
+```{r}
+shapiro.test(data$Tot_nod_mass) #p<0.05, not normal
+hist(data$Tot_nod_mass) # the data are heavily left-skewed
+hist(sqrt(data$Tot_nod_mass)) # transform
+shapiro.test(sqrt(data$Tot_nod_mass)) #p>0.05, transformed data are normal
+
+```
+
+## Nod_num
+```{r}
+shapiro.test(data$Nod_num) #p<0.05, not normal
+hist(data$Nod_num) # the data are heavily left-skewed
+hist(sqrt(data$Nod_num)) # transform
+shapiro.test(sqrt(data$Nod_num)) #p>0.05, transformed data are normal
+
+```
+
+## Avg_nod_mass
+```{r}
+shapiro.test(data$Avg_nod_mass) #p>0.05, normal
+hist(data$Avg_nod_mass) # looks normal
+
+```
+
+## Root_mass
+```{r}
+shapiro.test(data$Root_mass) #p>0.05, normal
+hist(data$Root_mass) # looks normal
+
+```
+
+## Shoot_mass
+```{r}
+shapiro.test(data$Shoot_mass) #p>0.05, normal
+hist(data$Shoot_mass) # looks normal
+
+```
+
+## Shoot_mass_per_root_mass
+```{r}
+shapiro.test(data$Shoot_mass_per_root_mass) #p<0.05, not normal
+hist(data$Shoot_mass_per_root_mass) # slightly left skewed
+
+```
+
+## Shoot_mass_per_nod_mass
+```{r}
+shapiro.test(data$Shoot_mass_per_nod_mass) #p<0.05, not normal
+hist(data$Shoot_mass_per_nod_mass) # heavily left skewed
+
+```
+
+## Nod_mass_per_root_mass
+```{r}
+shapiro.test(data$Nod_mass_per_root_mass) #p<0.05, not normal
+hist(data$Nod_mass_per_root_mass) # heavily left skewed
+
+```
+
+
+# Linear mixed effects model
+Build a function with a linear mixed effects model. When estimated marginal means are calculated for the model, it can be used to test for significant differences in the means of each trait when making distinct pairwise comparisons. NOTE: This assumes normality in the data being tested, and I already know that not all of the data (tot_nod_mass and the ratios) are normally distributed, so this might not be the right test for all of the traits. Furthermore, this is also probably not the right statistical test to use for my ratios (like nod_mass_per_root_mass), and I need some other test for that.
+
+```{r}
+library("emmeans") # for posthoc data analysis
+library("lme4") # linear mixed models
+library("car") # for Anova function
+
+function.lmer <- function(trait) {
+  lmer.fill.bench <- "+ (1|Bench)"
+  lmer.fill <- paste(trait, "~", "Inoc", lmer.fill.bench, sep = " ", collapse = NULL)
+  lmer <- lmer(lmer.fill, data = data)
+  print(summary(lmer))
+  
+  anova.lmer <-  Anova(lmer, type=2)
+  print(anova.lmer)
+  
+  lmer.emms <- emmeans(lmer, pairwise ~ Inoc)
+  lmer.emms.sum <- summary(lmer.emms, infer = c(TRUE,TRUE), adjust = "fdr")
+  print(lmer.emms.sum)
+  emm.out.path <- paste("./emmeans", trait, sep="/", collapse=NULL)
+  emm.out.path.csv <- paste(emm.out.path, "csv", sep=".", collapse = NULL)
+  write.csv(lmer.emms.sum$contrasts, file=emm.out.path.csv, row.names = FALSE)
+  
+  plot(lmer)
+}
+
+function.lmer.alltraits <- function() {
+  traitlist = c("Tot_nod_mass", "Nod_num", "Avg_nod_mass", "Root_mass", "Shoot_mass", "Shoot_mass_per_root_mass", "Shoot_mass_per_nod_mass", "Nod_mass_per_root_mass")
+  for(i in traitlist){
+    function.lmer(i)
+  }
+}
+```
+
+

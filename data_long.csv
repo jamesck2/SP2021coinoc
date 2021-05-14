@@ -1,0 +1,451 @@
+﻿Bench,Row,Column,Position,Plant,Inoc,Trait,Measurement
+Left,5,L-B,L-B5,L-B5,Sterile + N,Tot_nod_mass,103.99
+Left,5,L-D,L-D5,L-D5,Sterile + N,Tot_nod_mass,51.08
+Right,2,R-A,R-A2,R-A2,Sterile + N,Tot_nod_mass,18.14
+Right,2,R-B,R-B2,R-B2,Sterile + N,Tot_nod_mass,15.74
+Right,5,R-D,R-D5,R-D5,Sterile + N,Tot_nod_mass,48.67
+Left,4,L-B,L-B4,L-B4,717A + N,Tot_nod_mass,30.32
+Left,6,L-B,L-B6,L-B6,717A + N,Tot_nod_mass,NA
+Left,5,L-C,L-C5,L-C5,717A + N,Tot_nod_mass,22.91
+Right,4,R-B,R-B4,R-B4,717A + N,Tot_nod_mass,46.93
+Right,3,R-C,R-C3,R-C3,717A + N,Tot_nod_mass,22.56
+Left,2,L-A,L-A2,L-A2,733B + N,Tot_nod_mass,56.88
+Left,1,L-C,L-C1,L-C1,733B + N,Tot_nod_mass,69.64
+Left,2,L-C,L-C2,L-C2,733B + N,Tot_nod_mass,NA
+Right,2,R-D,R-D2,R-D2,733B + N,Tot_nod_mass,13.93
+Right,4,R-D,R-D4,R-D4,733B + N,Tot_nod_mass,42.33
+Left,6,L-A,L-A6,L-A6,141,Tot_nod_mass,23.71
+Left,3,L-D,L-D3,L-D3,141,Tot_nod_mass,35.08
+Right,4,R-A,R-A4,R-A4,141,Tot_nod_mass,53.78
+Right,2,R-C,R-C2,R-C2,141,Tot_nod_mass,40.17
+Right,3,R-D,R-D3,R-D3,141,Tot_nod_mass,0
+Left,1,L-A,L-A1,L-A1,141+717A,Tot_nod_mass,28.11
+Left,3,L-A,L-A3,L-A3,141+717A,Tot_nod_mass,102.39
+Left,5,L-A,L-A5,L-A5,141+717A,Tot_nod_mass,125.9
+Right,1,R-B,R-B1,R-B1,141+717A,Tot_nod_mass,0
+Right,4,R-C,R-C4,R-C4,141+717A,Tot_nod_mass,72.19
+Left,2,L-D,L-D2,L-D2,141+733B,Tot_nod_mass,73.34
+Left,4,L-D,L-D4,L-D4,141+733B,Tot_nod_mass,8.89
+Right,1,R-A,R-A1,R-A1,141+733B,Tot_nod_mass,NA
+Right,3,R-B,R-B3,R-B3,141+733B,Tot_nod_mass,33.28
+Right,1,R-D,R-D1,R-D1,141+733B,Tot_nod_mass,0.24
+Left,4,L-A,L-A4,L-A4,225,Tot_nod_mass,126.84
+Left,1,L-B,L-B1,L-B1,225,Tot_nod_mass,141.49
+Left,6,L-C,L-C6,L-C6,225,Tot_nod_mass,150.75
+Left,1,L-D,L-D1,L-D1,225,Tot_nod_mass,90.89
+Right,6,R-A,R-A6,R-A6,225,Tot_nod_mass,56.67
+Left,3,L-B,L-B3,L-B3,225+717A,Tot_nod_mass,212.79
+Left,3,L-C,L-C3,L-C3,225+717A,Tot_nod_mass,186.73
+Left,4,L-C,L-C4,L-C4,225+717A,Tot_nod_mass,189.97
+Right,6,R-B,R-B6,R-B6,225+717A,Tot_nod_mass,83.72
+Right,5,R-C,R-C5,R-C5,225+717A,Tot_nod_mass,95.44
+Left,2,L-B,L-B2,L-B2,225+733B,Tot_nod_mass,266.42
+Right,3,R-A,R-A3,R-A3,225+733B,Tot_nod_mass,136.51
+Right,5,R-A,R-A5,R-A5,225+733B,Tot_nod_mass,137.41
+Right,5,R-B,R-B5,R-B5,225+733B,Tot_nod_mass,131.95
+Right,1,R-C,R-C1,R-C1,225+733B,Tot_nod_mass,111.81
+Left,5,L-B,L-B5,L-B5,Sterile + N,Nod_num,32
+Left,5,L-D,L-D5,L-D5,Sterile + N,Nod_num,16
+Right,2,R-A,R-A2,R-A2,Sterile + N,Nod_num,10
+Right,2,R-B,R-B2,R-B2,Sterile + N,Nod_num,6
+Right,5,R-D,R-D5,R-D5,Sterile + N,Nod_num,13
+Left,4,L-B,L-B4,L-B4,717A + N,Nod_num,10
+Left,6,L-B,L-B6,L-B6,717A + N,Nod_num,NA
+Left,5,L-C,L-C5,L-C5,717A + N,Nod_num,6
+Right,4,R-B,R-B4,R-B4,717A + N,Nod_num,10
+Right,3,R-C,R-C3,R-C3,717A + N,Nod_num,8
+Left,2,L-A,L-A2,L-A2,733B + N,Nod_num,11
+Left,1,L-C,L-C1,L-C1,733B + N,Nod_num,10
+Left,2,L-C,L-C2,L-C2,733B + N,Nod_num,NA
+Right,2,R-D,R-D2,R-D2,733B + N,Nod_num,2
+Right,4,R-D,R-D4,R-D4,733B + N,Nod_num,21
+Left,6,L-A,L-A6,L-A6,141,Nod_num,13
+Left,3,L-D,L-D3,L-D3,141,Nod_num,4
+Right,4,R-A,R-A4,R-A4,141,Nod_num,11
+Right,2,R-C,R-C2,R-C2,141,Nod_num,8
+Right,3,R-D,R-D3,R-D3,141,Nod_num,0
+Left,1,L-A,L-A1,L-A1,141+717A,Nod_num,7
+Left,3,L-A,L-A3,L-A3,141+717A,Nod_num,18
+Left,5,L-A,L-A5,L-A5,141+717A,Nod_num,33
+Right,1,R-B,R-B1,R-B1,141+717A,Nod_num,0
+Right,4,R-C,R-C4,R-C4,141+717A,Nod_num,16
+Left,2,L-D,L-D2,L-D2,141+733B,Nod_num,19
+Left,4,L-D,L-D4,L-D4,141+733B,Nod_num,5
+Right,1,R-A,R-A1,R-A1,141+733B,Nod_num,NA
+Right,3,R-B,R-B3,R-B3,141+733B,Nod_num,5
+Right,1,R-D,R-D1,R-D1,141+733B,Nod_num,2
+Left,4,L-A,L-A4,L-A4,225,Nod_num,36
+Left,1,L-B,L-B1,L-B1,225,Nod_num,39
+Left,6,L-C,L-C6,L-C6,225,Nod_num,32
+Left,1,L-D,L-D1,L-D1,225,Nod_num,32
+Right,6,R-A,R-A6,R-A6,225,Nod_num,17
+Left,3,L-B,L-B3,L-B3,225+717A,Nod_num,52
+Left,3,L-C,L-C3,L-C3,225+717A,Nod_num,40
+Left,4,L-C,L-C4,L-C4,225+717A,Nod_num,59
+Right,6,R-B,R-B6,R-B6,225+717A,Nod_num,43
+Right,5,R-C,R-C5,R-C5,225+717A,Nod_num,28
+Left,2,L-B,L-B2,L-B2,225+733B,Nod_num,74
+Right,3,R-A,R-A3,R-A3,225+733B,Nod_num,44
+Right,5,R-A,R-A5,R-A5,225+733B,Nod_num,55
+Right,5,R-B,R-B5,R-B5,225+733B,Nod_num,50
+Right,1,R-C,R-C1,R-C1,225+733B,Nod_num,34
+Left,5,L-B,L-B5,L-B5,Sterile + N,Avg_nod_mass,3.2496875
+Left,5,L-D,L-D5,L-D5,Sterile + N,Avg_nod_mass,3.1925
+Right,2,R-A,R-A2,R-A2,Sterile + N,Avg_nod_mass,1.814
+Right,2,R-B,R-B2,R-B2,Sterile + N,Avg_nod_mass,2.623333333
+Right,5,R-D,R-D5,R-D5,Sterile + N,Avg_nod_mass,3.743846154
+Left,4,L-B,L-B4,L-B4,717A + N,Avg_nod_mass,3.032
+Left,6,L-B,L-B6,L-B6,717A + N,Avg_nod_mass,NA
+Left,5,L-C,L-C5,L-C5,717A + N,Avg_nod_mass,3.818333333
+Right,4,R-B,R-B4,R-B4,717A + N,Avg_nod_mass,4.693
+Right,3,R-C,R-C3,R-C3,717A + N,Avg_nod_mass,2.82
+Left,2,L-A,L-A2,L-A2,733B + N,Avg_nod_mass,5.170909091
+Left,1,L-C,L-C1,L-C1,733B + N,Avg_nod_mass,6.964
+Left,2,L-C,L-C2,L-C2,733B + N,Avg_nod_mass,NA
+Right,2,R-D,R-D2,R-D2,733B + N,Avg_nod_mass,6.965
+Right,4,R-D,R-D4,R-D4,733B + N,Avg_nod_mass,2.015714286
+Left,6,L-A,L-A6,L-A6,141,Avg_nod_mass,1.823846154
+Left,3,L-D,L-D3,L-D3,141,Avg_nod_mass,8.77
+Right,4,R-A,R-A4,R-A4,141,Avg_nod_mass,4.889090909
+Right,2,R-C,R-C2,R-C2,141,Avg_nod_mass,5.02125
+Right,3,R-D,R-D3,R-D3,141,Avg_nod_mass,0
+Left,1,L-A,L-A1,L-A1,141+717A,Avg_nod_mass,4.015714286
+Left,3,L-A,L-A3,L-A3,141+717A,Avg_nod_mass,5.688333333
+Left,5,L-A,L-A5,L-A5,141+717A,Avg_nod_mass,3.815151515
+Right,1,R-B,R-B1,R-B1,141+717A,Avg_nod_mass,0
+Right,4,R-C,R-C4,R-C4,141+717A,Avg_nod_mass,4.511875
+Left,2,L-D,L-D2,L-D2,141+733B,Avg_nod_mass,3.86
+Left,4,L-D,L-D4,L-D4,141+733B,Avg_nod_mass,1.778
+Right,1,R-A,R-A1,R-A1,141+733B,Avg_nod_mass,NA
+Right,3,R-B,R-B3,R-B3,141+733B,Avg_nod_mass,6.656
+Right,1,R-D,R-D1,R-D1,141+733B,Avg_nod_mass,0.12
+Left,4,L-A,L-A4,L-A4,225,Avg_nod_mass,3.523333333
+Left,1,L-B,L-B1,L-B1,225,Avg_nod_mass,3.627948718
+Left,6,L-C,L-C6,L-C6,225,Avg_nod_mass,4.7109375
+Left,1,L-D,L-D1,L-D1,225,Avg_nod_mass,2.8403125
+Right,6,R-A,R-A6,R-A6,225,Avg_nod_mass,3.333529412
+Left,3,L-B,L-B3,L-B3,225+717A,Avg_nod_mass,4.092115385
+Left,3,L-C,L-C3,L-C3,225+717A,Avg_nod_mass,4.66825
+Left,4,L-C,L-C4,L-C4,225+717A,Avg_nod_mass,3.219830508
+Right,6,R-B,R-B6,R-B6,225+717A,Avg_nod_mass,1.946976744
+Right,5,R-C,R-C5,R-C5,225+717A,Avg_nod_mass,3.408571429
+Left,2,L-B,L-B2,L-B2,225+733B,Avg_nod_mass,3.60027027
+Right,3,R-A,R-A3,R-A3,225+733B,Avg_nod_mass,3.1025
+Right,5,R-A,R-A5,R-A5,225+733B,Avg_nod_mass,2.498363636
+Right,5,R-B,R-B5,R-B5,225+733B,Avg_nod_mass,2.639
+Right,1,R-C,R-C1,R-C1,225+733B,Avg_nod_mass,3.288529412
+Left,5,L-B,L-B5,L-B5,Sterile + N,Root_dry_mass,36.03
+Left,5,L-D,L-D5,L-D5,Sterile + N,Root_dry_mass,99.91
+Right,2,R-A,R-A2,R-A2,Sterile + N,Root_dry_mass,38.08
+Right,2,R-B,R-B2,R-B2,Sterile + N,Root_dry_mass,19.82
+Right,5,R-D,R-D5,R-D5,Sterile + N,Root_dry_mass,18.11
+Left,4,L-B,L-B4,L-B4,717A + N,Root_dry_mass,50.67
+Left,6,L-B,L-B6,L-B6,717A + N,Root_dry_mass,NA
+Left,5,L-C,L-C5,L-C5,717A + N,Root_dry_mass,26.73
+Right,4,R-B,R-B4,R-B4,717A + N,Root_dry_mass,16.29
+Right,3,R-C,R-C3,R-C3,717A + N,Root_dry_mass,12.93
+Left,2,L-A,L-A2,L-A2,733B + N,Root_dry_mass,41.25
+Left,1,L-C,L-C1,L-C1,733B + N,Root_dry_mass,39.12
+Left,2,L-C,L-C2,L-C2,733B + N,Root_dry_mass,NA
+Right,2,R-D,R-D2,R-D2,733B + N,Root_dry_mass,13.03
+Right,4,R-D,R-D4,R-D4,733B + N,Root_dry_mass,20.61
+Left,6,L-A,L-A6,L-A6,141,Root_dry_mass,39.01
+Left,3,L-D,L-D3,L-D3,141,Root_dry_mass,19.52
+Right,4,R-A,R-A4,R-A4,141,Root_dry_mass,16.04
+Right,2,R-C,R-C2,R-C2,141,Root_dry_mass,23.02
+Right,3,R-D,R-D3,R-D3,141,Root_dry_mass,0
+Left,1,L-A,L-A1,L-A1,141+717A,Root_dry_mass,9.51
+Left,3,L-A,L-A3,L-A3,141+717A,Root_dry_mass,54.63
+Left,5,L-A,L-A5,L-A5,141+717A,Root_dry_mass,23.38
+Right,1,R-B,R-B1,R-B1,141+717A,Root_dry_mass,6.78
+Right,4,R-C,R-C4,R-C4,141+717A,Root_dry_mass,25.19
+Left,2,L-D,L-D2,L-D2,141+733B,Root_dry_mass,21.47
+Left,4,L-D,L-D4,L-D4,141+733B,Root_dry_mass,23.15
+Right,1,R-A,R-A1,R-A1,141+733B,Root_dry_mass,NA
+Right,3,R-B,R-B3,R-B3,141+733B,Root_dry_mass,26.25
+Right,1,R-D,R-D1,R-D1,141+733B,Root_dry_mass,0
+Left,4,L-A,L-A4,L-A4,225,Root_dry_mass,64.32
+Left,1,L-B,L-B1,L-B1,225,Root_dry_mass,54.69
+Left,6,L-C,L-C6,L-C6,225,Root_dry_mass,56.28
+Left,1,L-D,L-D1,L-D1,225,Root_dry_mass,40.44
+Right,6,R-A,R-A6,R-A6,225,Root_dry_mass,21.91
+Left,3,L-B,L-B3,L-B3,225+717A,Root_dry_mass,56.99
+Left,3,L-C,L-C3,L-C3,225+717A,Root_dry_mass,70.12
+Left,4,L-C,L-C4,L-C4,225+717A,Root_dry_mass,52.87
+Right,6,R-B,R-B6,R-B6,225+717A,Root_dry_mass,32.57
+Right,5,R-C,R-C5,R-C5,225+717A,Root_dry_mass,26.41
+Left,2,L-B,L-B2,L-B2,225+733B,Root_dry_mass,60.04
+Right,3,R-A,R-A3,R-A3,225+733B,Root_dry_mass,24.74
+Right,5,R-A,R-A5,R-A5,225+733B,Root_dry_mass,22.79
+Right,5,R-B,R-B5,R-B5,225+733B,Root_dry_mass,35.81
+Right,1,R-C,R-C1,R-C1,225+733B,Root_dry_mass,18.95
+Left,5,L-B,L-B5,L-B5,Sterile + N,Root_section_mass,44.39
+Left,5,L-D,L-D5,L-D5,Sterile + N,Root_section_mass,37.82
+Right,2,R-A,R-A2,R-A2,Sterile + N,Root_section_mass,45.5
+Right,2,R-B,R-B2,R-B2,Sterile + N,Root_section_mass,38.02
+Right,5,R-D,R-D5,R-D5,Sterile + N,Root_section_mass,34.32
+Left,4,L-B,L-B4,L-B4,717A + N,Root_section_mass,36.06
+Left,6,L-B,L-B6,L-B6,717A + N,Root_section_mass,NA
+Left,5,L-C,L-C5,L-C5,717A + N,Root_section_mass,31.27
+Right,4,R-B,R-B4,R-B4,717A + N,Root_section_mass,53.58
+Right,3,R-C,R-C3,R-C3,717A + N,Root_section_mass,43.04
+Left,2,L-A,L-A2,L-A2,733B + N,Root_section_mass,27.73
+Left,1,L-C,L-C1,L-C1,733B + N,Root_section_mass,31.37
+Left,2,L-C,L-C2,L-C2,733B + N,Root_section_mass,NA
+Right,2,R-D,R-D2,R-D2,733B + N,Root_section_mass,27.18
+Right,4,R-D,R-D4,R-D4,733B + N,Root_section_mass,21.68
+Left,6,L-A,L-A6,L-A6,141,Root_section_mass,28.23
+Left,3,L-D,L-D3,L-D3,141,Root_section_mass,83.28
+Right,4,R-A,R-A4,R-A4,141,Root_section_mass,48.95
+Right,2,R-C,R-C2,R-C2,141,Root_section_mass,39.56
+Right,3,R-D,R-D3,R-D3,141,Root_section_mass,5.69
+Left,1,L-A,L-A1,L-A1,141+717A,Root_section_mass,4.4
+Left,3,L-A,L-A3,L-A3,141+717A,Root_section_mass,19.14
+Left,5,L-A,L-A5,L-A5,141+717A,Root_section_mass,16.71
+Right,1,R-B,R-B1,R-B1,141+717A,Root_section_mass,7.82
+Right,4,R-C,R-C4,R-C4,141+717A,Root_section_mass,40.38
+Left,2,L-D,L-D2,L-D2,141+733B,Root_section_mass,44.92
+Left,4,L-D,L-D4,L-D4,141+733B,Root_section_mass,36.34
+Right,1,R-A,R-A1,R-A1,141+733B,Root_section_mass,NA
+Right,3,R-B,R-B3,R-B3,141+733B,Root_section_mass,34.74
+Right,1,R-D,R-D1,R-D1,141+733B,Root_section_mass,14.95
+Left,4,L-A,L-A4,L-A4,225,Root_section_mass,47.11
+Left,1,L-B,L-B1,L-B1,225,Root_section_mass,20.91
+Left,6,L-C,L-C6,L-C6,225,Root_section_mass,32.21
+Left,1,L-D,L-D1,L-D1,225,Root_section_mass,30.09
+Right,6,R-A,R-A6,R-A6,225,Root_section_mass,35.41
+Left,3,L-B,L-B3,L-B3,225+717A,Root_section_mass,28.13
+Left,3,L-C,L-C3,L-C3,225+717A,Root_section_mass,41.46
+Left,4,L-C,L-C4,L-C4,225+717A,Root_section_mass,57.94
+Right,6,R-B,R-B6,R-B6,225+717A,Root_section_mass,49.24
+Right,5,R-C,R-C5,R-C5,225+717A,Root_section_mass,40.85
+Left,2,L-B,L-B2,L-B2,225+733B,Root_section_mass,31.4
+Right,3,R-A,R-A3,R-A3,225+733B,Root_section_mass,41.04
+Right,5,R-A,R-A5,R-A5,225+733B,Root_section_mass,53.5
+Right,5,R-B,R-B5,R-B5,225+733B,Root_section_mass,16.98
+Right,1,R-C,R-C1,R-C1,225+733B,Root_section_mass,37.46
+Left,5,L-B,L-B5,L-B5,Sterile + N,Tot_root_mass,80.42
+Left,5,L-D,L-D5,L-D5,Sterile + N,Tot_root_mass,137.73
+Right,2,R-A,R-A2,R-A2,Sterile + N,Tot_root_mass,83.58
+Right,2,R-B,R-B2,R-B2,Sterile + N,Tot_root_mass,57.84
+Right,5,R-D,R-D5,R-D5,Sterile + N,Tot_root_mass,52.43
+Left,4,L-B,L-B4,L-B4,717A + N,Tot_root_mass,86.73
+Left,6,L-B,L-B6,L-B6,717A + N,Tot_root_mass,NA
+Left,5,L-C,L-C5,L-C5,717A + N,Tot_root_mass,58
+Right,4,R-B,R-B4,R-B4,717A + N,Tot_root_mass,69.87
+Right,3,R-C,R-C3,R-C3,717A + N,Tot_root_mass,55.97
+Left,2,L-A,L-A2,L-A2,733B + N,Tot_root_mass,68.98
+Left,1,L-C,L-C1,L-C1,733B + N,Tot_root_mass,70.49
+Left,2,L-C,L-C2,L-C2,733B + N,Tot_root_mass,NA
+Right,2,R-D,R-D2,R-D2,733B + N,Tot_root_mass,40.21
+Right,4,R-D,R-D4,R-D4,733B + N,Tot_root_mass,42.29
+Left,6,L-A,L-A6,L-A6,141,Tot_root_mass,67.24
+Left,3,L-D,L-D3,L-D3,141,Tot_root_mass,102.8
+Right,4,R-A,R-A4,R-A4,141,Tot_root_mass,64.99
+Right,2,R-C,R-C2,R-C2,141,Tot_root_mass,62.58
+Right,3,R-D,R-D3,R-D3,141,Tot_root_mass,5.69
+Left,1,L-A,L-A1,L-A1,141+717A,Tot_root_mass,13.91
+Left,3,L-A,L-A3,L-A3,141+717A,Tot_root_mass,73.77
+Left,5,L-A,L-A5,L-A5,141+717A,Tot_root_mass,40.09
+Right,1,R-B,R-B1,R-B1,141+717A,Tot_root_mass,14.6
+Right,4,R-C,R-C4,R-C4,141+717A,Tot_root_mass,65.57
+Left,2,L-D,L-D2,L-D2,141+733B,Tot_root_mass,66.39
+Left,4,L-D,L-D4,L-D4,141+733B,Tot_root_mass,59.49
+Right,1,R-A,R-A1,R-A1,141+733B,Tot_root_mass,NA
+Right,3,R-B,R-B3,R-B3,141+733B,Tot_root_mass,60.99
+Right,1,R-D,R-D1,R-D1,141+733B,Tot_root_mass,14.95
+Left,4,L-A,L-A4,L-A4,225,Tot_root_mass,111.43
+Left,1,L-B,L-B1,L-B1,225,Tot_root_mass,75.6
+Left,6,L-C,L-C6,L-C6,225,Tot_root_mass,88.49
+Left,1,L-D,L-D1,L-D1,225,Tot_root_mass,70.53
+Right,6,R-A,R-A6,R-A6,225,Tot_root_mass,57.32
+Left,3,L-B,L-B3,L-B3,225+717A,Tot_root_mass,85.12
+Left,3,L-C,L-C3,L-C3,225+717A,Tot_root_mass,111.58
+Left,4,L-C,L-C4,L-C4,225+717A,Tot_root_mass,110.81
+Right,6,R-B,R-B6,R-B6,225+717A,Tot_root_mass,81.81
+Right,5,R-C,R-C5,R-C5,225+717A,Tot_root_mass,67.26
+Left,2,L-B,L-B2,L-B2,225+733B,Tot_root_mass,91.44
+Right,3,R-A,R-A3,R-A3,225+733B,Tot_root_mass,65.78
+Right,5,R-A,R-A5,R-A5,225+733B,Tot_root_mass,76.29
+Right,5,R-B,R-B5,R-B5,225+733B,Tot_root_mass,52.79
+Right,1,R-C,R-C1,R-C1,225+733B,Tot_root_mass,56.41
+Left,5,L-B,L-B5,L-B5,Sterile + N,Shoot_mass,32.33
+Left,5,L-D,L-D5,L-D5,Sterile + N,Shoot_mass,70.41
+Right,2,R-A,R-A2,R-A2,Sterile + N,Shoot_mass,103.34
+Right,2,R-B,R-B2,R-B2,Sterile + N,Shoot_mass,60.78
+Right,5,R-D,R-D5,R-D5,Sterile + N,Shoot_mass,54
+Left,4,L-B,L-B4,L-B4,717A + N,Shoot_mass,88.39
+Left,6,L-B,L-B6,L-B6,717A + N,Shoot_mass,NA
+Left,5,L-C,L-C5,L-C5,717A + N,Shoot_mass,80.86
+Right,4,R-B,R-B4,R-B4,717A + N,Shoot_mass,23.52
+Right,3,R-C,R-C3,R-C3,717A + N,Shoot_mass,69.84
+Left,2,L-A,L-A2,L-A2,733B + N,Shoot_mass,85.76
+Left,1,L-C,L-C1,L-C1,733B + N,Shoot_mass,95.39
+Left,2,L-C,L-C2,L-C2,733B + N,Shoot_mass,NA
+Right,2,R-D,R-D2,R-D2,733B + N,Shoot_mass,50.29
+Right,4,R-D,R-D4,R-D4,733B + N,Shoot_mass,64.05
+Left,6,L-A,L-A6,L-A6,141,Shoot_mass,67.3
+Left,3,L-D,L-D3,L-D3,141,Shoot_mass,58.65
+Right,4,R-A,R-A4,R-A4,141,Shoot_mass,60.7
+Right,2,R-C,R-C2,R-C2,141,Shoot_mass,66.15
+Right,3,R-D,R-D3,R-D3,141,Shoot_mass,12.7
+Left,1,L-A,L-A1,L-A1,141+717A,Shoot_mass,29.01
+Left,3,L-A,L-A3,L-A3,141+717A,Shoot_mass,88.81
+Left,5,L-A,L-A5,L-A5,141+717A,Shoot_mass,75.51
+Right,1,R-B,R-B1,R-B1,141+717A,Shoot_mass,21.77
+Right,4,R-C,R-C4,R-C4,141+717A,Shoot_mass,28.46
+Left,2,L-D,L-D2,L-D2,141+733B,Shoot_mass,75.24
+Left,4,L-D,L-D4,L-D4,141+733B,Shoot_mass,45.89
+Right,1,R-A,R-A1,R-A1,141+733B,Shoot_mass,NA
+Right,3,R-B,R-B3,R-B3,141+733B,Shoot_mass,67.57
+Right,1,R-D,R-D1,R-D1,141+733B,Shoot_mass,19.14
+Left,4,L-A,L-A4,L-A4,225,Shoot_mass,48.04
+Left,1,L-B,L-B1,L-B1,225,Shoot_mass,64.89
+Left,6,L-C,L-C6,L-C6,225,Shoot_mass,54.63
+Left,1,L-D,L-D1,L-D1,225,Shoot_mass,64.02
+Right,6,R-A,R-A6,R-A6,225,Shoot_mass,59.67
+Left,3,L-B,L-B3,L-B3,225+717A,Shoot_mass,91.95
+Left,3,L-C,L-C3,L-C3,225+717A,Shoot_mass,68.95
+Left,4,L-C,L-C4,L-C4,225+717A,Shoot_mass,89.49
+Right,6,R-B,R-B6,R-B6,225+717A,Shoot_mass,46.58
+Right,5,R-C,R-C5,R-C5,225+717A,Shoot_mass,62.53
+Left,2,L-B,L-B2,L-B2,225+733B,Shoot_mass,68.35
+Right,3,R-A,R-A3,R-A3,225+733B,Shoot_mass,54.28
+Right,5,R-A,R-A5,R-A5,225+733B,Shoot_mass,45.49
+Right,5,R-B,R-B5,R-B5,225+733B,Shoot_mass,52.19
+Right,1,R-C,R-C1,R-C1,225+733B,Shoot_mass,55.07
+Left,5,L-B,L-B5,L-B5,Sterile + N,Shoot_mass_per_root_mass,0.402014424
+Left,5,L-D,L-D5,L-D5,Sterile + N,Shoot_mass_per_root_mass,0.5112176
+Right,2,R-A,R-A2,R-A2,Sterile + N,Shoot_mass_per_root_mass,1.236420196
+Right,2,R-B,R-B2,R-B2,Sterile + N,Shoot_mass_per_root_mass,1.050829876
+Right,5,R-D,R-D5,R-D5,Sterile + N,Shoot_mass_per_root_mass,1.029944688
+Left,4,L-B,L-B4,L-B4,717A + N,Shoot_mass_per_root_mass,1.019139859
+Left,6,L-B,L-B6,L-B6,717A + N,Shoot_mass_per_root_mass,NA
+Left,5,L-C,L-C5,L-C5,717A + N,Shoot_mass_per_root_mass,1.394137931
+Right,4,R-B,R-B4,R-B4,717A + N,Shoot_mass_per_root_mass,0.336625161
+Right,3,R-C,R-C3,R-C3,717A + N,Shoot_mass_per_root_mass,1.247811327
+Left,2,L-A,L-A2,L-A2,733B + N,Shoot_mass_per_root_mass,1.243258916
+Left,1,L-C,L-C1,L-C1,733B + N,Shoot_mass_per_root_mass,1.353241595
+Left,2,L-C,L-C2,L-C2,733B + N,Shoot_mass_per_root_mass,NA
+Right,2,R-D,R-D2,R-D2,733B + N,Shoot_mass_per_root_mass,1.250683909
+Right,4,R-D,R-D4,R-D4,733B + N,Shoot_mass_per_root_mass,1.514542445
+Left,6,L-A,L-A6,L-A6,141,Shoot_mass_per_root_mass,1.000892326
+Left,3,L-D,L-D3,L-D3,141,Shoot_mass_per_root_mass,0.570525292
+Right,4,R-A,R-A4,R-A4,141,Shoot_mass_per_root_mass,0.933989845
+Right,2,R-C,R-C2,R-C2,141,Shoot_mass_per_root_mass,1.05704698
+Right,3,R-D,R-D3,R-D3,141,Shoot_mass_per_root_mass,2.23198594
+Left,1,L-A,L-A1,L-A1,141+717A,Shoot_mass_per_root_mass,2.085549964
+Left,3,L-A,L-A3,L-A3,141+717A,Shoot_mass_per_root_mass,1.203876915
+Left,5,L-A,L-A5,L-A5,141+717A,Shoot_mass_per_root_mass,1.883512098
+Right,1,R-B,R-B1,R-B1,141+717A,Shoot_mass_per_root_mass,1.49109589
+Right,4,R-C,R-C4,R-C4,141+717A,Shoot_mass_per_root_mass,0.434039957
+Left,2,L-D,L-D2,L-D2,141+733B,Shoot_mass_per_root_mass,1.133303208
+Left,4,L-D,L-D4,L-D4,141+733B,Shoot_mass_per_root_mass,0.77139015
+Right,1,R-A,R-A1,R-A1,141+733B,Shoot_mass_per_root_mass,NA
+Right,3,R-B,R-B3,R-B3,141+733B,Shoot_mass_per_root_mass,1.107886539
+Right,1,R-D,R-D1,R-D1,141+733B,Shoot_mass_per_root_mass,1.280267559
+Left,4,L-A,L-A4,L-A4,225,Shoot_mass_per_root_mass,0.431122678
+Left,1,L-B,L-B1,L-B1,225,Shoot_mass_per_root_mass,0.858333333
+Left,6,L-C,L-C6,L-C6,225,Shoot_mass_per_root_mass,0.617357894
+Left,1,L-D,L-D1,L-D1,225,Shoot_mass_per_root_mass,0.907698852
+Right,6,R-A,R-A6,R-A6,225,Shoot_mass_per_root_mass,1.040997906
+Left,3,L-B,L-B3,L-B3,225+717A,Shoot_mass_per_root_mass,1.080239662
+Left,3,L-C,L-C3,L-C3,225+717A,Shoot_mass_per_root_mass,0.617942284
+Left,4,L-C,L-C4,L-C4,225+717A,Shoot_mass_per_root_mass,0.807598592
+Right,6,R-B,R-B6,R-B6,225+717A,Shoot_mass_per_root_mass,0.569368048
+Right,5,R-C,R-C5,R-C5,225+717A,Shoot_mass_per_root_mass,0.929675885
+Left,2,L-B,L-B2,L-B2,225+733B,Shoot_mass_per_root_mass,0.747484689
+Right,3,R-A,R-A3,R-A3,225+733B,Shoot_mass_per_root_mass,0.825174825
+Right,5,R-A,R-A5,R-A5,225+733B,Shoot_mass_per_root_mass,0.596277363
+Right,5,R-B,R-B5,R-B5,225+733B,Shoot_mass_per_root_mass,0.988634211
+Right,1,R-C,R-C1,R-C1,225+733B,Shoot_mass_per_root_mass,0.976245347
+Left,5,L-B,L-B5,L-B5,Sterile + N,Shoot_mass_per_nod_mass,0.310895278
+Left,5,L-D,L-D5,L-D5,Sterile + N,Shoot_mass_per_nod_mass,1.378425998
+Right,2,R-A,R-A2,R-A2,Sterile + N,Shoot_mass_per_nod_mass,5.696802646
+Right,2,R-B,R-B2,R-B2,Sterile + N,Shoot_mass_per_nod_mass,3.861499365
+Right,5,R-D,R-D5,R-D5,Sterile + N,Shoot_mass_per_nod_mass,1.109513047
+Left,4,L-B,L-B4,L-B4,717A + N,Shoot_mass_per_nod_mass,2.915237467
+Left,6,L-B,L-B6,L-B6,717A + N,Shoot_mass_per_nod_mass,NA
+Left,5,L-C,L-C5,L-C5,717A + N,Shoot_mass_per_nod_mass,3.529463117
+Right,4,R-B,R-B4,R-B4,717A + N,Shoot_mass_per_nod_mass,0.501171958
+Right,3,R-C,R-C3,R-C3,717A + N,Shoot_mass_per_nod_mass,3.095744681
+Left,2,L-A,L-A2,L-A2,733B + N,Shoot_mass_per_nod_mass,1.507735584
+Left,1,L-C,L-C1,L-C1,733B + N,Shoot_mass_per_nod_mass,1.369758759
+Left,2,L-C,L-C2,L-C2,733B + N,Shoot_mass_per_nod_mass,NA
+Right,2,R-D,R-D2,R-D2,733B + N,Shoot_mass_per_nod_mass,3.610193826
+Right,4,R-D,R-D4,R-D4,733B + N,Shoot_mass_per_nod_mass,1.513111269
+Left,6,L-A,L-A6,L-A6,141,Shoot_mass_per_nod_mass,2.838464783
+Left,3,L-D,L-D3,L-D3,141,Shoot_mass_per_nod_mass,1.671892816
+Right,4,R-A,R-A4,R-A4,141,Shoot_mass_per_nod_mass,1.128672369
+Right,2,R-C,R-C2,R-C2,141,Shoot_mass_per_nod_mass,1.646751307
+Right,3,R-D,R-D3,R-D3,141,Shoot_mass_per_nod_mass,NA
+Left,1,L-A,L-A1,L-A1,141+717A,Shoot_mass_per_nod_mass,1.032017076
+Left,3,L-A,L-A3,L-A3,141+717A,Shoot_mass_per_nod_mass,0.86736986
+Left,5,L-A,L-A5,L-A5,141+717A,Shoot_mass_per_nod_mass,0.599761716
+Right,1,R-B,R-B1,R-B1,141+717A,Shoot_mass_per_nod_mass,NA
+Right,4,R-C,R-C4,R-C4,141+717A,Shoot_mass_per_nod_mass,0.394237429
+Left,2,L-D,L-D2,L-D2,141+733B,Shoot_mass_per_nod_mass,1.025906736
+Left,4,L-D,L-D4,L-D4,141+733B,Shoot_mass_per_nod_mass,5.161979753
+Right,1,R-A,R-A1,R-A1,141+733B,Shoot_mass_per_nod_mass,NA
+Right,3,R-B,R-B3,R-B3,141+733B,Shoot_mass_per_nod_mass,2.030348558
+Right,1,R-D,R-D1,R-D1,141+733B,Shoot_mass_per_nod_mass,0
+Left,4,L-A,L-A4,L-A4,225,Shoot_mass_per_nod_mass,0.378744875
+Left,1,L-B,L-B1,L-B1,225,Shoot_mass_per_nod_mass,0.458618984
+Left,6,L-C,L-C6,L-C6,225,Shoot_mass_per_nod_mass,0.36238806
+Left,1,L-D,L-D1,L-D1,225,Shoot_mass_per_nod_mass,0.704367917
+Right,6,R-A,R-A6,R-A6,225,Shoot_mass_per_nod_mass,1.052938062
+Left,3,L-B,L-B3,L-B3,225+717A,Shoot_mass_per_nod_mass,0.432116171
+Left,3,L-C,L-C3,L-C3,225+717A,Shoot_mass_per_nod_mass,0.369249719
+Left,4,L-C,L-C4,L-C4,225+717A,Shoot_mass_per_nod_mass,0.47107438
+Right,6,R-B,R-B6,R-B6,225+717A,Shoot_mass_per_nod_mass,0.556378404
+Right,5,R-C,R-C5,R-C5,225+717A,Shoot_mass_per_nod_mass,0.655176027
+Left,2,L-B,L-B2,L-B2,225+733B,Shoot_mass_per_nod_mass,0.256549809
+Right,3,R-A,R-A3,R-A3,225+733B,Shoot_mass_per_nod_mass,0.397626548
+Right,5,R-A,R-A5,R-A5,225+733B,Shoot_mass_per_nod_mass,0.331053053
+Right,5,R-B,R-B5,R-B5,225+733B,Shoot_mass_per_nod_mass,0.395528609
+Right,1,R-C,R-C1,R-C1,225+733B,Shoot_mass_per_nod_mass,0.492531974
+Left,5,L-B,L-B5,L-B5,Sterile + N,Nod_mass_per_root_mass,1.293086297
+Left,5,L-D,L-D5,L-D5,Sterile + N,Nod_mass_per_root_mass,0.370870544
+Right,2,R-A,R-A2,R-A2,Sterile + N,Nod_mass_per_root_mass,0.217037569
+Right,2,R-B,R-B2,R-B2,Sterile + N,Nod_mass_per_root_mass,0.272130014
+Right,5,R-D,R-D5,R-D5,Sterile + N,Nod_mass_per_root_mass,0.928285333
+Left,4,L-B,L-B4,L-B4,717A + N,Nod_mass_per_root_mass,0.349590684
+Left,6,L-B,L-B6,L-B6,717A + N,Nod_mass_per_root_mass,NA
+Left,5,L-C,L-C5,L-C5,717A + N,Nod_mass_per_root_mass,0.395
+Right,4,R-B,R-B4,R-B4,717A + N,Nod_mass_per_root_mass,0.67167597
+Right,3,R-C,R-C3,R-C3,717A + N,Nod_mass_per_root_mass,0.403073075
+Left,2,L-A,L-A2,L-A2,733B + N,Nod_mass_per_root_mass,0.824586837
+Left,1,L-C,L-C1,L-C1,733B + N,Nod_mass_per_root_mass,0.987941552
+Left,2,L-C,L-C2,L-C2,733B + N,Nod_mass_per_root_mass,NA
+Right,2,R-D,R-D2,R-D2,733B + N,Nod_mass_per_root_mass,0.346431236
+Right,4,R-D,R-D4,R-D4,733B + N,Nod_mass_per_root_mass,1.00094585
+Left,6,L-A,L-A6,L-A6,141,Nod_mass_per_root_mass,0.35261749
+Left,3,L-D,L-D3,L-D3,141,Nod_mass_per_root_mass,0.341245136
+Right,4,R-A,R-A4,R-A4,141,Nod_mass_per_root_mass,0.827511925
+Right,2,R-C,R-C2,R-C2,141,Nod_mass_per_root_mass,0.64189837
+Right,3,R-D,R-D3,R-D3,141,Nod_mass_per_root_mass,0
+Left,1,L-A,L-A1,L-A1,141+717A,Nod_mass_per_root_mass,2.020848311
+Left,3,L-A,L-A3,L-A3,141+717A,Nod_mass_per_root_mass,1.387962586
+Left,5,L-A,L-A5,L-A5,141+717A,Nod_mass_per_root_mass,3.140434023
+Right,1,R-B,R-B1,R-B1,141+717A,Nod_mass_per_root_mass,0
+Right,4,R-C,R-C4,R-C4,141+717A,Nod_mass_per_root_mass,1.100960805
+Left,2,L-D,L-D2,L-D2,141+733B,Nod_mass_per_root_mass,1.10468444
+Left,4,L-D,L-D4,L-D4,141+733B,Nod_mass_per_root_mass,0.14943688
+Right,1,R-A,R-A1,R-A1,141+733B,Nod_mass_per_root_mass,NA
+Right,3,R-B,R-B3,R-B3,141+733B,Nod_mass_per_root_mass,0.545663224
+Right,1,R-D,R-D1,R-D1,141+733B,Nod_mass_per_root_mass,0.016053512
+Left,4,L-A,L-A4,L-A4,225,Nod_mass_per_root_mass,1.138293099
+Left,1,L-B,L-B1,L-B1,225,Nod_mass_per_root_mass,1.871560847
+Left,6,L-C,L-C6,L-C6,225,Nod_mass_per_root_mass,1.703582326
+Left,1,L-D,L-D1,L-D1,225,Nod_mass_per_root_mass,1.288671487
+Right,6,R-A,R-A6,R-A6,225,Nod_mass_per_root_mass,0.988660154
+Left,3,L-B,L-B3,L-B3,225+717A,Nod_mass_per_root_mass,2.499882519
+Left,3,L-C,L-C3,L-C3,225+717A,Nod_mass_per_root_mass,1.673507797
+Left,4,L-C,L-C4,L-C4,225+717A,Nod_mass_per_root_mass,1.714375959
+Right,6,R-B,R-B6,R-B6,225+717A,Nod_mass_per_root_mass,1.023346779
+Right,5,R-C,R-C5,R-C5,225+717A,Nod_mass_per_root_mass,1.418971157
+Left,2,L-B,L-B2,L-B2,225+733B,Nod_mass_per_root_mass,2.913604549
+Right,3,R-A,R-A3,R-A3,225+733B,Nod_mass_per_root_mass,2.075250836
+Right,5,R-A,R-A5,R-A5,225+733B,Nod_mass_per_root_mass,1.801153493
+Right,5,R-B,R-B5,R-B5,225+733B,Nod_mass_per_root_mass,2.499526425
+Right,1,R-C,R-C1,R-C1,225+733B,Nod_mass_per_root_mass,1.982095373
